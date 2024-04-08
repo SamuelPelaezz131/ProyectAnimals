@@ -1,0 +1,7 @@
+
+.FondoPerro{
+    background-image: linear-gradient(180deg, #0000001c 0%, #0000008c 100% ), url('../../assets//img/FondoPerro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
