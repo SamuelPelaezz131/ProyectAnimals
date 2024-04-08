@@ -1,0 +1,11 @@
+.Fondo{
+    background-image: linear-gradient(180deg, #0000001c 0%, #0000008c 100% ), url('../../assets//img/FondoHorse.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Titulo{
+    font-family: "Sofia Sans", Sans-serif;
+    font-size: 35px;
+ 
+}
