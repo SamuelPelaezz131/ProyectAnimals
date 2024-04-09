@@ -9,7 +9,7 @@ function Createcount() {
       <div className=" conten-ppal-login flex justify-center h-[80vh] m-8 items-center w-[90%] ">
       <div className=" conten-right w-[50%] FondoVaca rounded-l-2xl shadow-[80px] ">
           <div className="  w-full bg-white h-[80vh] rounded-tr-[60px] rounded-l-2xl ">
-            <section class="flex flex-col items-center pt-6 h-[80vh]  justify-center ">
+            <section class="flex flex-col items-center pt-6 h-[77vh]  justify-center ">
               <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0">
                 <div class="p-6 space-y-4 md:space-y-6 sm:p-8 shadow-[0_0px_60px_25px_rgba(0,0,0,0.2)] h-[70vh]  rounded-lg flex flex-col justify-center ">
                   <h1 class="text-2xl font-bold leading-tight tracking-tight text-black md:text-2xl">
@@ -28,7 +28,7 @@ function Createcount() {
                         name="name"
                         id="name"
                         class="bg-gray-50 border border-gray-300 text-black sm:text-sm rounded-lg block w-full p-2.5"
-                        placeholder="Emelia Erickson"
+                        placeholder="Ingrese nombre completo"
                         required=""
                       />
                     </div>
@@ -37,14 +37,14 @@ function Createcount() {
                         for="username"
                         class="block mb-2 text-sm font-medium text-black "
                       >
-                        Nombre de Usuario
+                        Email
                       </label>
                       <input
                         type="text"
                         name="username"
                         id="username"
                         class="bg-gray-50 border border-gray-300 text-black sm:text-sm rounded-lg block w-full p-2.5"
-                        placeholder="emelia_erickson24"
+                        placeholder="Ingrese email"
                         required=""
                       />
                     </div>

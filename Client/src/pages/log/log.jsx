@@ -8,7 +8,7 @@ function Log() {
       <div className=" flex justify-center">
         <div className=" conten-ppal-login flex justify-center h-[80vh] m-8 items-center w-[90%] ">
           <div className=" hidden md:block  conten-letf w-[50%] bg-white rounded-l-2xl ">
-            <div className="    FondoPerro hidden md:block  w-full bg-[#171824] h-[80vh] rounded-br-[60px] rounded-l-2xl">
+            <div className="FondoPerro hidden md:block  w-full bg-[#171824] h-[80vh] rounded-br-[60px] rounded-l-2xl">
              
             </div>
           </div>
@@ -19,7 +19,7 @@ function Log() {
               <section class=" flex justify-center  md:rounded-2xl  h-[80vh] text-black">
                 <div class="flex flex-col items-center justify-center w-[70%] ">
                   <div class="w-full bg-[#f8f8f8]  rounded-lg  items-center shadow-[0_0px_60px_25px_rgba(0,0,0,0.2)] dark:border md:mt-0 sm:max-w-md xl:p-0 text-black">
-                    <div class="p-6 space-y-4 md:space-y-6 sm:p-8 h-[60vh]  flex flex-col  justify-center">
+                    <div class="p-6 space-y-4 md:space-y-6 sm:p-8 h-[65vh]  flex flex-col  justify-center">
                       <h1 class="text-2xl font-bold leading-tight tracking-tight ">
                         INICIAR SESION
                       </h1>
