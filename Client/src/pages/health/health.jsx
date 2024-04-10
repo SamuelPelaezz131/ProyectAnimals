@@ -14,7 +14,7 @@ function Salud() {
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Para acceder a esta vista informacion necesitas iniciar sesion</h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"></p>
-            <a href="/log" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#459E66] rounded-lg">
+            <a href="/log" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#459E66] rounded-lg hover:animate-pop">
             Ingresar
             </a>
           </div>

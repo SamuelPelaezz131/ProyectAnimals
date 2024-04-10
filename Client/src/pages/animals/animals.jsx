@@ -6,39 +6,36 @@ function Animales() {
   return (
       
     <div className=" w-full flex rounded-lg">
-    <div className="profiles w-[20%] h-[79vh] m-5 flex">
-      <div className=' infoProfile flex flex-col items-center'>
-      <img src={Profile} alt="" className=' rounded-sm justify-center' />
+    <div className="profiles w-[20%] h-[75vh] m-5 flex">
+      <div className=' infoProfile flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg'>
+      <img src={Profile} alt="" className=' rounded-sm justify-center w-[60%]' />
         <p className=' text-center pb-8'><b>Nombre:</b> <br />Samuel Pelaez Torres</p>
         <p className=' text-center pb-8'><b>Rol:</b> <br />Administrador</p>
         <p className=' text-center pb-8'><b>Correo:</b> <br />samuel_pelez23231@elpoli.edu.co</p>
       </div>
     </div>
     
-<div class=" flex  items-center w-[70%] ml-14   ">
-    <table class="w-full text-sm text-left text-white border-[1px] border-black  ">
-        <thead class="text-xs  uppercase bg-[#1e5096] text-white">
-            <tr>
+<div class=" flex  items-center w-[70%] ml-14 ">
+    <table class="w-full text-sm text-left text-white h-[74vh] border border-collapse">
+        <thead class="text-xs  uppercase bg-[#459E66] text-white rounded-2xl">
+            <tr className='rounded-xl'>
                 <th scope="col" class="p-4">
                     <div class="flex items-center">
                         <input id="checkbox-all" type="checkbox" class="w-4 h-4 text-blue-600
                          bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600
                           dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700
-                           dark:border-gray-600" />
+                            dark:border-gray-600" />
                         <label for="checkbox-all" class="sr-only">checkbox</label>
                     </div>
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    ID
+                    ID DE ANIMAL
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    NOMBRE
+                    TIPO DE ANIMAL
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    CORREO
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    ROL
+                    EDAD
                 </th>
                 <th scope="col" class="px-6 py-3">
                     Action
@@ -57,16 +54,13 @@ function Animales() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    1
+                    001
                 </th>
                 <td class="px-6 py-4">
-                   Gabriel
+                   Vaca
                 </td>
                 <td class="px-6 py-4">
-                    gabriel@gmail.com
-                </td>
-                <td class="px-6 py-4">
-                    Estudiante
+                    15 años
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -83,16 +77,13 @@ function Animales() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    2
+                    002
                 </th>
                 <td class="px-6 py-4">
-                    Fernanda
+                    Caballo
                 </td>
                 <td class="px-6 py-4">
-                    fer123@gmail.com
-                </td>
-                <td class="px-6 py-4">
-                    Estudiante
+                    10 años
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -109,16 +100,13 @@ function Animales() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    3
+                    003
                 </th>
                 <td class="px-6 py-4">
-                    Jhon
+                    Cerdo
                 </td>
                 <td class="px-6 py-4">
-                    jhonjader@elpoli.edu.co
-                </td>
-                <td class="px-6 py-4">
-                    Monitor
+                    4 años
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -135,16 +123,13 @@ function Animales() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    4
+                    004
                 </th>
                 <td class="px-6 py-4">
-                    Luis
+                    Vaca
                 </td>
                 <td class="px-6 py-4">
-                    luis2023@gmail.com
-                </td>
-                <td class="px-6 py-4">
-                    estudiante
+                    9 años
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -161,16 +146,13 @@ function Animales() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    5
+                    005
                 </th>
                 <td class="px-6 py-4">
-                    Jose Fernando
+                    Cerdo
                 </td>
                 <td class="px-6 py-4">
-                    josef@gmail.com
-                </td>
-                <td class="px-6 py-4">
-                    Estudiante
+                    5 años
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -187,16 +169,13 @@ function Animales() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    6
+                    006
                 </th>
                 <td class="px-6 py-4">
-                    Manuel
+                    Gallina
                 </td>
                 <td class="px-6 py-4">
-                    manuel9080@elpoli.edu.co
-                </td>
-                <td class="px-6 py-4">
-                    Monitor
+                    5 años
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
