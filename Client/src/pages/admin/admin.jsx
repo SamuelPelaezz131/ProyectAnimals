@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Admin() {
+function admin() {
   return (
-    <div>Hola</div>
+    <div>admin</div>
   )
 }
 
-export default Admin
+export default admin
