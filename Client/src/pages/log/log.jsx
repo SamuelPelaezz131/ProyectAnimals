@@ -9,7 +9,7 @@ function Log() {
         <div className=" conten-ppal-login flex justify-center h-[80vh] m-8 items-center w-[90%] ">
           <div className=" hidden md:block  conten-letf w-[50%] bg-white rounded-l-2xl ">
             <div className="FondoPerro hidden md:block  w-full bg-[#171824] h-[80vh] rounded-br-[60px] rounded-l-2xl">
-             
+
             </div>
           </div>
 
@@ -45,7 +45,7 @@ function Log() {
                             for="password"
                             class="block mb-2 text-sm font-medium text-black"
                           >
-                           Contraseña
+                            Contraseña
                           </label>
                           <input
                             type="password"
@@ -80,7 +80,7 @@ function Log() {
                             href="#"
                             class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500"
                           >
-                           Olvidaste tu contraseña?
+                            Olvidaste tu contraseña?
                           </a>
                         </div>
                         <button
@@ -96,7 +96,7 @@ function Log() {
                             class="font-medium text-primary-600 hover:underline dark:text-primary-500"
                           >
                             <NavLink to="/createcount">
-                            Registrarse
+                              Registrarse
                             </NavLink>
                           </a>
                         </p>

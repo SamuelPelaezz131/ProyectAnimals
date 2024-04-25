@@ -1,195 +1,66 @@
 import React from 'react'
 import Profile from "../../assets/img/ImgProfile.png"
-
+import Añadir from "../../assets/img/AgregarAnimal.png"
+import Cordero from "../../assets/img/CorderoAdmin.png"
 
 function Animales() {
-  return (
-      
-    <div className=" w-full flex rounded-lg">
-    <div className="profiles w-[20%] h-[75vh] m-5 flex">
-      <div className=' infoProfile flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg'>
-      <img src={Profile} alt="" className=' rounded-sm justify-center w-[60%]' />
-        <p className=' text-center pb-8'><b>Nombre:</b> <br />Samuel Pelaez Torres</p>
-        <p className=' text-center pb-8'><b>Rol:</b> <br />Administrador</p>
-        <p className=' text-center pb-8'><b>Correo:</b> <br />samuel_pelez23231@elpoli.edu.co</p>
-      </div>
-    </div>
-    
-<div class=" flex  items-center w-[70%] ml-14 ">
-    <table class="w-full text-sm text-left text-white h-[74vh] border border-collapse">
-        <thead class="text-xs  uppercase bg-[#459E66] text-white rounded-2xl">
-            <tr className='rounded-xl'>
-                <th scope="col" class="p-4">
-                    <div class="flex items-center">
-                        <input id="checkbox-all" type="checkbox" class="w-4 h-4 text-blue-600
-                         bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600
-                          dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700
-                            dark:border-gray-600" />
-                        <label for="checkbox-all" class="sr-only">checkbox</label>
+    return (
+
+        <div className=" w-full flex rounded-lg m-5 gap-5">
+            <div className="profiles w-[20%] h-[75vh] flex">
+                <div className=' infoProfile flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg'>
+                    <img src={Profile} alt="" className=' rounded-sm justify-center w-[60%]' />
+                    <p className=' text-center pb-8'><b>Nombre:</b> <br />Samuel Pelaez Torres</p>
+                    <p className=' text-center pb-8'><b>Rol:</b> <br />Administrador</p>
+                    <p className=' text-center pb-8'><b>Correo:</b> <br />samuel_pelez23231@elpoli.edu.co</p>
+                </div>
+            </div>
+            <div>
+                <div className="flex item-center w-[80%] gap-5 justify-center"> 
+                    <div className="rounded-t-lg w-[50%] h-[65 vh] bg-white border border-gray-200 rounded-lg shadow dark:bg-white">
+                        <a href="#">
+                            <img src={Añadir} alt="" className="rounded-t-lg w-[100%]"/>
+                        </a>
+                        <div className="p-5">
+                            <a href="#">
+                                <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">AGREGAR ANIMAL</h5>
+                            </a>
+
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#459E66] rounded-lg hover:bg-[#459E66] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#459E66] dark:hover:bg-[#459E66] dark:focus:ring-[#459E66]">
+                                Añadir
+                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    ID DE ANIMAL
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    TIPO DE ANIMAL
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    EDAD
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Action
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-white border-b  dark:border-gray-700 hover:bg-gray-50 text-black">
-                <td class="w-4 p-4">
-                    <div class="flex items-center">
-                        <input  id="checkbox-table-1" type="checkbox" class="w-4 h-4
-                         text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500
-                          dark:focus:ring-blue-600
-                           focus:ring-2" />
-                        <label for="checkbox-table-1" class="sr-only">checkbox</label>
+                    <div className="rounded-t-lg w-[50%] h-[65 vh] bg-white border border-gray-200 rounded-lg shadow dark:bg-white">
+                        <a href="#">
+                            <img src={Cordero} alt="" className="rounded-t-lg w-[100%]"/>
+                        </a>
+                        <div className="p-5">
+                            <a href="#">
+                                <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">ADMINISTRAR ANIMAL</h5>
+                            </a>
+
+                            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#459E66] rounded-lg hover:bg-[#459E66] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#459E66] dark:hover:bg-[#459E66] dark:focus:ring-[#459E66]">
+                                Administrar
+                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </td>
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    001
-                </th>
-                <td class="px-6 py-4">
-                   Vaca
-                </td>
-                <td class="px-6 py-4">
-                    15 años
-                </td>
-                <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b text-black dark:border-gray-700 hover:bg-gray-50 ">
-                <td class="w-4 p-4">
-                    <div class="flex items-center">
-                         <input id="checkbox-table-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded
-                          focus:ring-blue-500 dark:focus:ring-blue-600 
-                         dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2
-                          dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-2" class="sr-only">checkbox</label>
-                    </div>
-                </td>
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    002
-                </th>
-                <td class="px-6 py-4">
-                    Caballo
-                </td>
-                <td class="px-6 py-4">
-                    10 años
-                </td>
-                <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b text-black dark:border-gray-700 hover:bg-gray-50 ">
-                <td class="w-4 p-4">
-                    <div class="flex items-center">
-                    <input id="checkbox-table-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded
-                          focus:ring-blue-500 dark:focus:ring-blue-600 
-                         dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2
-                          dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-3" class="sr-only">checkbox</label>
-                    </div>
-                </td>
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    003
-                </th>
-                <td class="px-6 py-4">
-                    Cerdo
-                </td>
-                <td class="px-6 py-4">
-                    4 años
-                </td>
-                <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b text-black dark:border-gray-700 hover:bg-gray-50 ">
-                <td class="w-4 p-4">
-                    <div class="flex items-center">
-                    <input id="checkbox-table-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded
-                          focus:ring-blue-500 dark:focus:ring-blue-600 
-                         dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2
-                          dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-3" class="sr-only">checkbox</label>
-                    </div>
-                </td>
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    004
-                </th>
-                <td class="px-6 py-4">
-                    Vaca
-                </td>
-                <td class="px-6 py-4">
-                    9 años
-                </td>
-                <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b text-black dark:border-gray-700 hover:bg-gray-50 ">
-                <td class="w-4 p-4">
-                    <div class="flex items-center">
-                    <input id="checkbox-table-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded
-                          focus:ring-blue-500 dark:focus:ring-blue-600 
-                         dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2
-                          dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-3" class="sr-only">checkbox</label>
-                    </div>
-                </td>
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    005
-                </th>
-                <td class="px-6 py-4">
-                    Cerdo
-                </td>
-                <td class="px-6 py-4">
-                    5 años
-                </td>
-                <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
-            </tr>
-            <tr class="bg-white text-black  hover:bg-gray-50 ">
-                <td class="w-4 p-4">
-                    <div class="flex items-center">
-                    <input id="checkbox-table-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded
-                          focus:ring-blue-500 dark:focus:ring-blue-600 
-                         dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2
-                          dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-3" class="sr-only">checkbox</label>
-                    </div>
-                </td>
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    006
-                </th>
-                <td class="px-6 py-4">
-                    Gallina
-                </td>
-                <td class="px-6 py-4">
-                    5 años
-                </td>
-                <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+
+                </div>
+            </div>
 
 
-  </div>
 
-      
-  )
+        </div>
+
+
+    )
 }
 
 export default Animales
