@@ -2,7 +2,7 @@ import React from 'react'
 
 function admin() {
   return (
-    <div>   
+    <div>
       <section class="bg-[#E0E0E0] p-3 sm:p-5 antialiased">
         <div class="mx-auto max-w-screen-xl px-4 lg:px-12">
 
@@ -120,7 +120,7 @@ function admin() {
                     <th scope="col" class="px-4 py-3">Descripcion</th>
                     <th scope="col" class="px-4 py-3">Edad</th>
                     <th scope="col" class="px-4 py-3">
-                      <span class="sr-only">Actions</span>  
+                      <span class="sr-only">Actions</span>
                     </th>
                   </tr>
                 </thead>
