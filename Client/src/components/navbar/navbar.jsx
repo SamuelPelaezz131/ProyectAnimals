@@ -8,7 +8,7 @@ import { LuCalendarClock } from "react-icons/lu";
 function Navbar() {
   return (
     <div>
-      <div className='h-5 bg-[#459E66]' />
+      <div className='h-5 bg-[#459E66]'/>
       <div className="text-[0.8rem] navbar w-full flex justify-between pl-20 pr-8 items-center h-20 bg-white shadow-md">
         <NavLink className='' to="/">
           <img src={Logo} alt="" className='w-[50px]' />

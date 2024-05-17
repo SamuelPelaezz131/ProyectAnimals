@@ -7,7 +7,9 @@ import Food from "./pages/food/food"
 import Health from "./pages/health/health"
 import Remenber from "./pages/remember/remenber"
 import Navbar from "./components/navbar/navbar"
+import Footer from "./components/navbar/footer"
 import Animals from "./pages/animals/animals"
+
 
 function Router () {
   let router = useRoutes([
@@ -31,6 +33,7 @@ function App() {
     <BrowserRouter>
         <Navbar />
         <Router />
+        <Footer />  
       </BrowserRouter>
     </div>
     </>
